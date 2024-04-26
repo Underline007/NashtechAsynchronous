@@ -33,7 +33,7 @@ namespace NashtechAsynchronousDay2
             }
 
             Console.WriteLine($"Prime numbers between {startNumber} and {endNumber}:");
-            // Performance of Sync Method
+            // Performance of Sync Method 
             Stopwatch timeConsumingOfSyncMethod = Stopwatch.StartNew();
             int[] primeNumbersSync = GetPrimeNumbers(startNumber, endNumber);
             timeConsumingOfSyncMethod.Stop();
